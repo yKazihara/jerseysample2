@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample.jersey</groupId>
-  <artifactId>jerseysample</artifactId>
+  <artifactId>jerseysample2</artifactId>
   <packaging>war</packaging>
   <version>1.0.0</version>
 
@@ -16,7 +16,7 @@
   </properties>
 
   <build>
-    <finalName>jerseysample</finalName>
+    <finalName>jerseysample2</finalName>
     <plugins>
       <!-- compiler -->
       <plugin>
@@ -32,8 +32,6 @@
   </build>
 
   <dependencies>
-
-    <!-- Jersey -->
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-core</artifactId>
@@ -49,6 +47,5 @@
       <artifactId>jersey-json</artifactId>
       <version>${jersey.version}</version>
     </dependency>
-
   </dependencies>
 </project>
